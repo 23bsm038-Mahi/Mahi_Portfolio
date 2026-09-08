@@ -1,11 +1,16 @@
 import c4gtCertificate from "../Assets/Certificates/c4gt-certificate.pdf";
+import adobeUniversityHackathon from "../Assets/Certificates/adobe-university-hackathon.jpeg";
+import campusCrewQuizOff from "../Assets/Certificates/campuscrew-quizoff-2026.jpeg";
 import deloitteCertificate from "../Assets/Certificates/deloitte-certificate.pdf";
 import githubCertificate from "../Assets/Certificates/github-certificate.pdf";
 import gssocAcceptance from "../Assets/Certificates/gssoc.jpeg";
 import headAndShouldersCertificate from "../Assets/Certificates/head-and-shoulders-certificate.png";
+import ibmReactCoursera from "../Assets/Certificates/ibm-react-coursera.jpeg";
 import internshalaCertificate from "../Assets/Certificates/internshala-certificate.pdf";
 import lfxCertificate from "../Assets/Certificates/lfx-certificate.pdf";
 import ssocContributor from "../Assets/Certificates/ssoc.png";
+import summerOfBitcoin from "../Assets/Certificates/summer-of-bitcoin-2026.png";
+import womenWhoMasterHackathon from "../Assets/Certificates/women-who-master-hackathon.jpeg";
 import resume from "../Assets/Mahi_Raj_Resume.pdf";
 import artworkProject from "../Assets/Projects/artswork.png";
 import codeEditorProject from "../Assets/Projects/codeEditor.png";
@@ -186,6 +191,51 @@ export const achievements = [
 ];
 
 export const credentials = [
+  {
+    title: "IBM Developing Front-End Apps with React",
+    issuer: "IBM / Coursera",
+    label: "Course Certificate",
+    detail: "Completed the IBM-authorized React front-end development course in August 2026.",
+    asset: ibmReactCoursera,
+    preview: ibmReactCoursera,
+    type: "image",
+  },
+  {
+    title: "Summer of Bitcoin 2026 — Developer Track",
+    issuer: "Summer of Bitcoin",
+    label: "Recognition",
+    detail: "Completed all three Developer Track challenges and advanced to the proposal round.",
+    asset: summerOfBitcoin,
+    preview: summerOfBitcoin,
+    type: "image",
+  },
+  {
+    title: "Adobe University Hackathon",
+    issuer: "Adobe / Unstop",
+    label: "Participation",
+    detail: "Participated in the Adobe University Hackathon in August 2026.",
+    asset: adobeUniversityHackathon,
+    preview: adobeUniversityHackathon,
+    type: "image",
+  },
+  {
+    title: "QuizOff 2026: India's Biggest AI Quiz",
+    issuer: "CampusCrew / Unstop",
+    label: "Participation",
+    detail: "Selected to compete in CampusCrew's nationwide AI quiz in July 2026.",
+    asset: campusCrewQuizOff,
+    preview: campusCrewQuizOff,
+    type: "image",
+  },
+  {
+    title: "Women Who Master Hackathon",
+    issuer: "Logitech / Aspire For Her",
+    label: "Participation",
+    detail: "Actively participated in the all-women national hackathon in July 2026.",
+    asset: womenWhoMasterHackathon,
+    preview: womenWhoMasterHackathon,
+    type: "image",
+  },
   {
     title: "GSSoC 2026 Acceptance",
     issuer: "GirlScript Summer of Code",
