@@ -6,7 +6,9 @@ import githubCertificate from "../Assets/Certificates/github-certificate.pdf";
 import gssocAcceptance from "../Assets/Certificates/gssoc.jpeg";
 import headAndShouldersCertificate from "../Assets/Certificates/head-and-shoulders-certificate.png";
 import ibmReactCoursera from "../Assets/Certificates/ibm-react-coursera.jpeg";
+import internshipCertificate from "../Assets/Certificates/internship-certificate.pdf";
 import internshalaCertificate from "../Assets/Certificates/internshala-certificate.pdf";
+import letterOfAppointment from "../Assets/Certificates/letter-of-appreciation.pdf";
 import lfxCertificate from "../Assets/Certificates/lfx-certificate.pdf";
 import ssocContributor from "../Assets/Certificates/ssoc.png";
 import summerOfBitcoin from "../Assets/Certificates/summer-of-bitcoin-2026.png";
@@ -148,6 +150,27 @@ export const projects = [
 
 export const experience = [
   {
+    period: "May 2026 – Aug 2026",
+    role: "Full Stack Developer Intern",
+    place: "Quickyearning Private Limited · Mumbai, India",
+    details:
+      "Rebuilt quickyearning.com landing-page UI with React and JavaScript, engineered responsive layouts across device breakpoints, and collaborated in a PR-based frontend workflow with mentor feedback.",
+  },
+  {
+    period: "May 2026 – Aug 2026",
+    role: "Open Source Developer",
+    place: "TAP Learning App · Code4GovTech (C4GT)",
+    details:
+      "Built a React Native learning-app scaffold integrated with Frappe-based LMS REST APIs, delivered core student onboarding flows, and collaborated with maintainers on issue triage and code review.",
+  },
+  {
+    period: "May 2026 – Aug 2026",
+    role: "Open Source Contributor",
+    place: "GSoC Finder · GirlScript Summer of Code",
+    details:
+      "Improved the platform with live GitHub API integration, multi-field filtering, normalized search indexing, and maintainer-reviewed pull requests.",
+  },
+  {
     period: "2025 - Present",
     role: "Full Stack Project Builder",
     place: "Personal, academic, and deployed work",
@@ -191,6 +214,22 @@ export const achievements = [
 ];
 
 export const credentials = [
+  {
+    title: "Full Stack Developer Internship",
+    issuer: "Quickyearning Private Limited",
+    label: "Internship Certificate",
+    detail: "Successfully completed a Full Stack Developer internship from 4 May to 5 August 2026.",
+    asset: internshipCertificate,
+    type: "pdf",
+  },
+  {
+    title: "Full Stack Developer Appointment Letter",
+    issuer: "Quickyearning Private Limited",
+    label: "Appointment Letter",
+    detail: "Official internship appointment letter for a three-month Full Stack Developer role in Mumbai.",
+    asset: letterOfAppointment,
+    type: "pdf",
+  },
   {
     title: "IBM Developing Front-End Apps with React",
     issuer: "IBM / Coursera",
